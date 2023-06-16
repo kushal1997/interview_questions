@@ -1,9 +1,14 @@
 
 import './App.css';
+import { Header, Footer } from "./components/Layouts"
 
 function App() {
   return (
-    <h1>hello</h1>
+    <div className="app">
+      <Header />
+      <h1>hello</h1>
+      <Footer />
+    </div>
   );
 }
 
