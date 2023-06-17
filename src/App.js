@@ -1,13 +1,16 @@
 
 import './App.css';
 import { Header, Footer } from "./components/Layouts"
+import { Sidebar } from "./components/Layouts/Sidebar"
+import { MiddleTextArea } from "./components/cards/MiddleTextArea"
 
 function App() {
   return (
     <div className="app">
-      <Header />
-      <h1>hello</h1>
-      <Footer />
+    <Header />
+        <Sidebar />
+        <MiddleTextArea />
+    
     </div>
   );
 }
